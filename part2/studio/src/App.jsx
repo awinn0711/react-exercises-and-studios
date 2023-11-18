@@ -1,10 +1,13 @@
 import "./App.css";
-import RateARecipe from "./components/RateARecipe";
-import Button from "./components/Button";
-import AuthorInfo from "./components/AuthorInfo";
-import IngredientList from "./components/Ingredients";
-import RecipeImage from "./components/RecipeImage";
-import RecipeName from "./components/RecipeName";
+import RateARecipe from "./components/RateARecipe.jsx";
+import Button from "./components/Button.jsx";
+import AuthorInfo from "./components/AuthorInfo.jsx";
+import IngredientList from "./components/Ingredients.jsx";
+import RecipeImage from "./components/RecipeImage.jsx";
+import RecipeName from "./components/RecipeName.jsx";
+import SaveButton from "./components/SaveButton.jsx";
+import React from "react";
+
 
 export default function App() {
   return (
@@ -17,4 +20,5 @@ export default function App() {
       <IngredientList />
     </>
   );
-}
+};
+
