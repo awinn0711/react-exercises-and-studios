@@ -23,7 +23,8 @@ export default function MyProjects() {
       <button onClick={handleClick}>
         Next
       </button>
-      <h2>{project.canvas} by {project.designer}
+      <h2>Some things I like to plant: </h2>
+      <h2>{project.plant} 
       </h2>
       <img src={project.photoUrl} alt={project.alt} />
     </div>
